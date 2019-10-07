@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="wrap wrapSignUp"> 
+        <h3>註冊</h3>
+        <label>帳號:</label>
+        <input id="signupAcc" type="text" name="account" placeholder=" Email"/><br/>
+        <label>密碼:</label>
+        <input id="signupPw" type="password"" name="password" placeholder=" Password"/><br/>
+        <input class="btn" id="signupBtn" type="submit" value="註冊"/>
+        <div class="status signupStatus"></div>
+      </div>
+      <div class="wrap wrapLogIn"> 
+        <h3>登入</h3>
+        <label>帳號:</label>
+        <input id="logInAcc" type="text" name="account" placeholder=" Email"/><br/>
+        <label>密碼:</label>
+        <input id="logInPw" type="password"" name="password" placeholder=" Password"/><br/>
+        <input class="btn" id="logInBtn" type="submit" value="登入"/>
+        <div class="status logInStatus"></div>
+      </div>
+    </div>
+    <script src="js/all.js"></script>
+  </body>
+</html>

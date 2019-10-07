@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="css/reset.css")
+        link(rel="stylesheet", href="css/style.css")
+        title Document
+    body
+        #app
+            .wrap.wrapSignUp 
+                h3 註冊
+                label 帳號:
+                input#signupAcc(type="text",name='account' placeholder=' Email')
+                br
+                label 密碼:
+                input#signupPw(type="text",name='password' placeholder=' Password')
+                br
+                input#signupBtn.btn(type="submit" value='註冊')
+                .status.signupStatus
+            .wrap.wrapLogIn 
+                h3 登入
+                label 帳號:
+                input#logInAcc(type="text",name='account' placeholder=' Email')
+                br
+                label 密碼:
+                input#logInPw(type="text",name='password' placeholder=' Password')
+                br
+                input#logInBtn.btn(type="submit" value='登入')
+                .status.logInStatus
+
+            
+        script(src="js/all.js")
+
+
+
+
+
+
+
+
+//- <!DOCTYPE html>
+//- html(lang="en")
+//-     head
+//-         meta(charset="UTF-8")
+//-         meta(name="viewport", content="width=device-width, initial-scale=1.0")
+//-         meta(http-equiv="X-UA-Compatible", content="ie=edge")
+//-         link(rel='stylesheet' href='css/style.css')
+//-         title Document
+//-     body
+//-         label 帳號:
+//-         input.signupAcc(type='text' name='account')
+//-         br
+//-         label 密碼:
+//-         input.signupPw(type='password' name='password')
+//-         br
+//-         input.signupBtn(type='submit' value='註冊')
+//-         br
+//-         br
+//-         label 帳號:
+//-         input.loginAcc(type='text' name='account')
+//-         br
+//-         label 密碼:
+//-         input.loginPw(type='password' name='password')
+//-         br
+//-         input.loginBtn(type='submit' value='登入')
+//-         script(src='js/all.js')
+
+
